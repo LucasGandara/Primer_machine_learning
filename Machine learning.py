@@ -25,4 +25,3 @@ Knn.score(X_test,Y_test)
 
 # Para revisar a que tipo de flor pertenece, escribe lo siguiente
 # iris.target_names
-

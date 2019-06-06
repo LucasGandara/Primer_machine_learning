@@ -20,7 +20,7 @@ for i in range(800):
         Y_train.append(Y_aux[j])
 
 # Setemos el numero de vecinos a considerar
-Knn = KNeighborsClassifier(n_neighbors = 2)
+Knn = KNeighborsClassifier(n_neighbors = 4)
 
 Knn.fit(X_train,Y_train)
 
